@@ -1,5 +1,5 @@
 package calculadora;
-public class OperacaoBasticaTeste {
+public class OperacaoBasicaTeste {
     public boolean testar_soma(){
         if(OperacaoBasica.somar(5, 3) == 8){
             return true;
