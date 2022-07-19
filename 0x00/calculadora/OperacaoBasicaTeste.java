@@ -1,27 +1,26 @@
-package calculadora;
 public class OperacaoBasicaTeste {
-    public boolean testar_soma(){
+    public static boolean testar_soma(){
         if(OperacaoBasica.somar(5, 3) == 8){
             return true;
         }
         return false;
     }
 
-    public boolean testar_subtracao(){
+    public static boolean testar_subtracao(){
         if(OperacaoBasica.subtrair(5, 3) == 2){
             return true;
         }
         return false;
     }
     
-    public boolean testar_multiplicacao(){
+    public static boolean testar_multiplicacao(){
         if(OperacaoBasica.multiplicar(5, 3) == 15){
             return true;
         }
         return false;
     }
 
-    public boolean testar_divisao(){
+    public static boolean testar_divisao(){
         if(OperacaoBasica.dividir(9, 3) == 3){
             return true;
         }
