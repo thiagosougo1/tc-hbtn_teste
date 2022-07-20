@@ -23,7 +23,7 @@ public class Person {
     }
 
     public float calculateYearlySalary() {
-        return salary * 12;
+        return getSalary() * 12;
     }
 
     public int age() {
